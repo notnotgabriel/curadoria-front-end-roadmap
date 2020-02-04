@@ -1,5 +1,5 @@
 # Frontend Developer 2020
-Um guia passo a passo para você se tornar a próxima pessoa desenvolvedora frontend
+Um guia de estudos para você se tornar a próxima pessoa desenvolvedora frontend
 
 # Internet
 
@@ -41,7 +41,7 @@ https://www.youtube.com/watch?v=vrLx1yJjsXU
 https://www.youtube.com/watch?v=Uhb8SmAfiNg
 https://www.youtube.com/watch?v=32TvxotksIg
 https://developer.mozilla.org/pt-BR/docs/Learn/Accessibility/HTML
-
+https://www.youtube.com/watch?v=EAOsjmvqJ5A
 https://www.youtube.com/watch?v=3dQuTBjtqb0
 https://www.youtube.com/watch?v=wjZEPeTwVL4
 https://www.youtube.com/watch?v=VeIBUy20UzQ
@@ -74,3 +74,65 @@ https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries
 https://blog.apiki.com/media-queries-breakpoints-projetos-mobile-first/
 https://www.carloshps.com.br/blog/criar-site-responsivo-com-html5-e-css3-parte-1-de-3/
 https://www.youtube.com/watch?v=Z7z8J12hMco&list=PLwXQLZ3FdTVFi6oHo_K4IYDcwCU5-f1x5
+
+## Box model
+https://www.youtube.com/watch?v=n2sp9tgEdag
+https://tableless.github.io/iniciantes/manual/css/box-model.html
+
+# Javascript
+
+## Sintaxe básica e DOM + ES6
+https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
+https://www.youtube.com/watch?v=lcKo-ycLDNw&list=PLx4x_zx8csUj3IbPQ4_X5jis_SkCol3eC
+https://www.youtube.com/watch?v=093dIOCNeIc&list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc
+https://www.youtube.com/watch?v=Rr_oDnF3UHE&list=PL4iwH9RF8xHlTQb8cPv0HuwKZhR8jEBIK
+https://www.youtube.com/watch?v=vrSEt5J4q2Y&list=PLbA-jMwv0cuWbas947cygrzfzHIc7esmp
+
+## Fetch API / Ajax (XHR)
+https://www.youtube.com/watch?v=XeUiSNbQO-4
+https://www.youtube.com/watch?v=v9JVA6tVmcg
+https://www.youtube.com/watch?v=YzMTXID1U9Q
+https://www.youtube.com/watch?v=KvVMN9MZ_H0
+
+## Modulos
+https://medium.com/trainingcenter/entendendo-m%C3%B3dulos-no-javascript-73bce1d64dbf
+https://medium.com/@edmo_/m%C3%B3dulos-es6-node-js-e-a-solu%C3%A7%C3%A3o-michael-jackson-4ac993c0ac94
+https://jcemer.com/uma-nova-sintaxe-para-modulos-no-es6.html
+https://blog.da2k.com.br/2015/01/05/como-criar-componentes-js-usando-modulos-amd-commonjs-e-umd-parte-3-3/
+https://braziljs.org/artigos/modulos-no-javascript-moderno/
+
+## Hoisting + Escope
+https://www.youtube.com/watch?v=M1Qvz7cRsqQ
+https://www.youtube.com/watch?v=q-iKinPQks4
+https://tableless.com.br/elevacao-ou-javascript-hoisting/
+https://medium.com/opensanca/hoisting-em-javascript-9f22b1f78448
+https://walde.co/2016/02/15/javascript-hoisting-o-que-e/
+http://loopinfinito.com.br/2014/10/29/hoisting-e-escopo-em-javascript/
+https://www.youtube.com/watch?v=usZ3Y5zdlm0
+https://www.youtube.com/watch?v=Z0GCM-vOhkY
+https://www.youtube.com/watch?v=fNWOcDCO4sQ
+https://www.youtube.com/watch?v=LBW0dX2It_M
+
+
+## Events
+https://imasters.com.br/front-end/javascript-bubbling-e-capturing
+https://github.com/braziljs/eloquente-javascript/blob/master/chapters/14-manipulando-eventos.md
+http://loopinfinito.com.br/2013/05/14/entendendo-captura-e-propagacao-de-eventos/
+
+## Prototype
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain
+https://tableless.com.br/dominando-o-uso-de-prototype-em-javascript/
+https://www.devmedia.com.br/prototype-javascript/7063
+https://www.youtube.com/watch?v=7ZxYJw9ebaM
+https://www.youtube.com/watch?v=6YT-cHf0pC4
+
+## Shadow DOM
+https://developers.google.com/web/fundamentals/web-components/shadowdom?hl=pt-br
+https://www.lambda3.com.br/2018/03/shadow-dom-voltando-ao-basico/
+https://imasters.com.br/front-end/criando-componente-com-shadow-dom
+
+## Strict
+https://www.youtube.com/watch?v=-iiSEKTotyg
+https://igluonline.com/o-que-o-use-strict-faz-no-javascript-e-por-que-ele-existe/
+https://tableless.com.br/javascript-strict-mode/
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Strict_mode
