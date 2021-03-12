@@ -1,1 +1,5 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Curadoria Front-end Roadmap
+
+Este site é uma curadoria de conteúdos sobre front-end, para pessoas interessadas a estudar estas tecnologias.
+
+Estamos em construção.
