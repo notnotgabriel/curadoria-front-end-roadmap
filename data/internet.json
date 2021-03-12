@@ -1,0 +1,94 @@
+{
+  "title": "internet",
+  "order": 1,
+  "branches": [
+    {
+      "title": "Como funciona a internet",
+      "links": [
+        {
+          "title": "Como a internet funciona - Developer Mozilla",
+          "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Como_a_internet_funciona"
+        },
+        {
+          "title": "Como a web funciona - Developer Mozilla",
+          "url": "https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/Como_a_Web_funciona"
+        },
+        {
+          "title": "Por onde vem a internet - Manual do Mundo",
+          "url": "https://www.youtube.com/embed/fYJl-7jRzuw"
+        },
+        {
+          "title": "O protocolo IP - NICbrvideos",
+          "url": "https://www.youtube.com/embed/HNQD0qJ0TC4"
+        },
+        {
+          "title": "Sistemas Autônomos, BGP, PTTs - NICbrvideos",
+          "url": "https://www.youtube.com/embed/C5qNAT_j63M"
+        }
+      ]
+    },
+    {
+      "title": "Protocolo HTTP",
+      "links": [
+        {
+          "title": "Entenda o que é HTTP e o quão importante esse protocolo é para o seu site - Rockcontent",
+          "url": "https://rockcontent.com/blog/http/"
+        },
+        {
+          "title": "HTTP: Desmistificando o protocolo da Web - Alura",
+          "url": "https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1"
+        },
+        {
+          "title": "Qual é a diferença entre HTTP e HTTPS? - Alura",
+          "url": "https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https"
+        }
+      ]
+    },
+    {
+      "title": "Como funcionam os browsers",
+      "links": [
+        {
+          "title": "Como funcionam os navegadores Web - Alura Hipsters ponto tube",
+          "url": "https://www.youtube.com/embed/kDy62zaCHZE"
+        },
+        {
+          "title": "Desconstruindo a web: renderização de páginas - iMasters",
+          "url": "https://imasters.com.br/front-end/desconstruindo-web-renderizacao-de-paginas"
+        }
+      ]
+    },
+    {
+      "title": "DNS, Domínio, Hospedagem",
+      "links": [
+        {
+          "title": "DNS: o que é, como funciona e como configurar o DNS de um domínio - Rockcontent",
+          "url": "https://rockcontent.com/blog/dns/"
+        },
+        {
+          "title": "O que é DNS? Como funciona? Domain Name System - Canal TI",
+          "url": "https://www.youtube.com/embed/2zqGtfVGABU"
+        },
+        {
+          "title": "Como funciona a Internet? DNS - NICbrvideos",
+          "url": "https://www.youtube.com/embed/ACGuo26MswI"
+        },
+        {
+          "title": "O que é DNS? [CT Responde] - Canaltech",
+          "url": "https://www.youtube.com/embed/YMmIRoJjICw"
+        },
+        {
+          "title": "O que é Domínio e Hospedagem? - Hostnet Internet",
+          "url": "https://www.youtube.com/embed/vkhWXz0I7pY"
+        },
+        {
+          "title": "O que é um domínio? - NICbrvideos",
+          "url": "https://www.youtube.com/embed/t_wSDdQeb58"
+        },
+        {
+          "title": "Como registrar um domínio .br? - NICbrvideos",
+          "url": "https://www.youtube.com/embed/gZRYDxWuYpk"
+        }
+      ]
+    }
+  ]
+}

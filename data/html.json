@@ -1,0 +1,81 @@
+{
+  "title": "html",
+  "order": 2,
+  "branches": [
+    {
+      "title": "Cursos de HTML",
+      "links": [
+        {
+          "title": "Curso de HTML5 - Gustavo Guanabara - Curso em Vídeo",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o"
+        },
+        {
+          "title": "HTML5 | Curso completo - Kura Web",
+          "url": "https://youtube.com/embed/videoseries?list=PLpfKv2Mn_c-GanOaoy03j5Tvd15dlZjUI"
+        }
+      ]
+    },
+    {
+      "title": "Acessibilidade",
+      "links": [
+        {
+          "title": "Acessibilidade na Web - Alura Live#47",
+          "url": "https://www.youtube.com/embed/vrLx1yJjsXU"
+        },
+        {
+          "title": "FrontinVale 2016 - 10 Dicas de Acessibilidade Web para você nunca mais esquecer por Talita Pagani",
+          "url": "https://www.youtube.com/embed/Uhb8SmAfiNg"
+        },
+        {
+          "title": "Tecnologias Web e Publicações Digitais] Introduções ao SVG e à Acessibilidade na Web - NICbrvideos",
+          "url": "https://www.youtube.com/embed/32TvxotksIg"
+        },
+        {
+          "title": "HTML: Boas práticas em acessibilidade - Developer Mozilla",
+          "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Accessibility/HTML"
+        },
+        {
+          "title": "A importância da Acessibilidade - BrazilJS",
+          "url": "https://www.youtube.com/embed/EAOsjmvqJ5A"
+        },
+        {
+          "title": "Diretrizes de Acessibilidade... o que são e como são organizadas? - Todos por acessibilidade",
+          "url": "https://www.youtube.com/embed/3dQuTBjtqb0"
+        },
+        {
+          "title": "Entendendo o WCAG - Recomendação 1.1 - Alternativas Textuais - Todos por acessibilidade",
+          "url": "https://www.youtube.com/embed/wjZEPeTwVL4"
+        },
+        {
+          "title": "Entendendo o WCAG - Recomendação 1.2 - Multimídia baseada em tempo - Todos por acessibilidade",
+          "url": "https://www.youtube.com/embed/VeIBUy20UzQ"
+        },
+        {
+          "title": "Entendendo o WCAG - Recomendação 1.3 - Conteúdo Adaptável - Todos por acessibilidade",
+          "url": "https://www.youtube.com/embed/OldNmlI1ono"
+        },
+        {
+          "title": "A importância da hierarquia de conteúdo para a acessibilidade - Todos por acessibilidade",
+          "url": "https://www.youtube.com/embed/1pjy8hCKGbw"
+        }
+      ]
+    },
+    {
+      "title": "SEO",
+      "links": [
+        {
+          "title": "SEO: tudo sobre Search Engine Optimization - Resultadosdigitais",
+          "url": "https://resultadosdigitais.com.br/especiais/o-que-e-seo/"
+        },
+        {
+          "title": "O que é SEO (Search Engine Optimization): o guia completo para você conquistar o topo do Google -rockcontent",
+          "url": "https://rockcontent.com/blog/o-que-e-seo/"
+        },
+        {
+          "title": "Guia COMPLETO de SEO em 2020 - Rock Content",
+          "url": "https://www.youtube.com/embed/fzlMqT0vgbE"
+        }
+      ]
+    }
+  ]
+}

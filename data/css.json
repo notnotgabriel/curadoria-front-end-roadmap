@@ -1,0 +1,83 @@
+{
+  "title": "CSS",
+  "order": 3,
+  "branches": [
+    {
+      "title": "CSS básico",
+      "links": [
+        {
+          "title": "CSS3 | Curso completo - Kura Web",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLpfKv2Mn_c-E1wOPiHeC5S6cDM_ujmFWn"
+        },
+        {
+          "title": "Curso de CSS3 - Node Studio Treinamentos",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLwXQLZ3FdTVGf7GUtiOFLc_9AXO25iIzG"
+        }
+      ]
+    },
+    {
+      "title": "Box model",
+      "links": [
+        {
+          "title": "CSS3: Box Model - Tudo o que você precisa saber - hcode",
+          "url": "https://www.youtube.com/embed/n2sp9tgEdag"
+        },
+        {
+          "title": "Box Model - tableless",
+          "url": "https://tableless.github.io/iniciantes/manual/css/box-model.html"
+        }
+      ]
+    },
+    {
+      "title": "Layout",
+      "links": [
+        {
+          "title": "Aprenda Layout com CSS - learnlayout",
+          "url": "https://pt-br.learnlayout.com/"
+        }
+      ]
+    },
+    {
+      "title": "Grid e Flexbox",
+      "links": [
+        {
+          "title": "CSS Grid Layout e Flexbox - Quando Utilizar - Origamid",
+          "url": "https://www.youtube.com/embed/x-4z_u8LcGc"
+        },
+        {
+          "title": "Você deve aprender CSS Grid! - Alura Cursos Online",
+          "url": "https://www.youtube.com/embed/Zk4Abd7fIEM"
+        },
+        {
+          "title": "Desvendando o CSS Grid na prática | Mayk Brito - Rocketseat",
+          "url": "https://www.youtube.com/embed/HN1UjzRSdBk"
+        },
+        {
+          "title": "CSS Grid Layout - Kura Web",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLpfKv2Mn_c-El6EG2Eq6HLdDq7QBz7o6w"
+        }
+      ]
+    },
+    {
+      "title": "Media Queries",
+      "links": [
+        {
+          "title": "Usando Media Queries - Developer Mozilla",
+          "url": "https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries"
+        },
+        {
+          "title": "Media Queries e Breakpoints nos projetos Mobile First - apiki",
+          "url": "https://blog.apiki.com/media-queries-breakpoints-projetos-mobile-first/"
+        },
+        {
+          "title": "Criar um Site Responsivo com HTML5 e CSS3 - carloshps",
+          "url": "https://www.carloshps.com.br/blog/criar-site-responsivo-com-html5-e-css3-parte-1-de-3/"
+        },
+        {
+          "title": "Design Responsivo - Node Studio Treinamentos",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLwXQLZ3FdTVFi6oHo_K4IYDcwCU5-f1x5"
+        }
+      ]
+    }
+  ]
+}

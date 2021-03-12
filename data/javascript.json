@@ -1,0 +1,202 @@
+{
+  "title": "Javascript",
+  "order": 4,
+  "branches": [
+    {
+      "title": "Sintaxe básica e DOM + ES6",
+      "links": [
+        {
+          "title": "Curso Grátis de JavaScript e ECMAScript para Iniciantes - Curso em Vídeo",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+        },
+        {
+          "title": "Curso de Javascript - CFBCursos",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLx4x_zx8csUj3IbPQ4_X5jis_SkCol3eC"
+        },
+        {
+          "title": "JavaScript - Rodrigo Branas",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc"
+        },
+        {
+          "title": "Curso JavaScript do Básico ao avançado - Escola Front-end",
+          "url": "https://www.youtube.com/embed/videoseries?list=PL4iwH9RF8xHlTQb8cPv0HuwKZhR8jEBIK"
+        },
+        {
+          "title": "Curso de JavaScript - Programador a Bordo",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLbA-jMwv0cuWbas947cygrzfzHIc7esmp"
+        }
+      ]
+    },
+    {
+      "title": "Fetch API / Ajax (XHR)",
+      "links": [
+        {
+          "title": "Vanilla Javascript - #29 Ajax com json - Webdesign em Foco",
+          "url": "https://www.youtube.com/embed/KvVMN9MZ_H0"
+        },
+        {
+          "title": "Tutorial AJAX + JSON com (JavaScript PURO) - Guilherme Chinaglia",
+          "url": "https://www.youtube.com/embed/YzMTXID1U9Q"
+        },
+        {
+          "title": "Javascript - Alternativa para Ajax. Usando Fetch API - Dev Analytics",
+          "url": "https://www.youtube.com/embed/XeUiSNbQO-4"
+        },
+        {
+          "title": "Usando a FETCH API do JavaScript - Emerson Broga",
+          "url": "https://www.youtube.com/embed/v9JVA6tVmcg"
+        }
+      ]
+    },
+    {
+      "title": "Modulos",
+      "links": [
+        {
+          "title": "Entendendo módulos ES6 - Lucas Santos",
+          "url": "https://medium.com/trainingcenter/entendendo-m%C3%B3dulos-no-javascript-73bce1d64dbf"
+        },
+        {
+          "title": "Módulos ES6, Node.js e a solução Michael Jackson - Edmo Lima",
+          "url": "https://medium.com/@edmo_/m%C3%B3dulos-es6-node-js-e-a-solu%C3%A7%C3%A3o-michael-jackson-4ac993c0ac94"
+        },
+        {
+          "title": "UMA NOVA SINTAXE PARA MÓDULOS NO ES6 - JEAN CARLOEMER",
+          "url": "https://jcemer.com/uma-nova-sintaxe-para-modulos-no-es6.html"
+        },
+        {
+          "title": "Como criar componentes JS usando módulos - AMD, CommonJS e UMD - da2k",
+          "url": "https://blog.da2k.com.br/2015/01/05/como-criar-componentes-js-usando-modulos-amd-commonjs-e-umd-parte-3-3/"
+        },
+        {
+          "title": "Módulos no JavaScript moderno - BrazilJS",
+          "url": "https://braziljs.org/artigos/modulos-no-javascript-moderno/"
+        }
+      ]
+    },
+    {
+      "title": "Hoisting + Escope",
+      "links": [
+        {
+          "title": "Zero Dev S01E01: O que é Hoisting? - BrazilJS",
+          "url": "https://www.youtube.com/embed/M1Qvz7cRsqQ"
+        },
+        {
+          "title": "Zero Dev S01E02: Hoisting na prática - BrazilJS",
+          "url": "https://www.youtube.com/embed/q-iKinPQks4"
+        },
+        {
+          "title": "Elevação ou JavaScript hoisting - Tableless",
+          "url": "https://tableless.com.br/elevacao-ou-javascript-hoisting/"
+        },
+        {
+          "title": "Escopo e Hoisting, como funciona isso no JavaScript? - Cristofer Sousa",
+          "url": "https://medium.com/opensanca/hoisting-em-javascript-9f22b1f78448"
+        },
+        {
+          "title": "Javascript Hoisting o que é? - Waldemar Neto",
+          "url": "https://walde.co/2016/02/15/javascript-hoisting-o-que-e/"
+        },
+        {
+          "title": "Hoisting e escopo em JavaScript - Loop Infinito",
+          "url": "http://loopinfinito.com.br/2014/10/29/hoisting-e-escopo-em-javascript/"
+        },
+        {
+          "title": "Hoisting, var, let, const e function em Javascript - DevPleno",
+          "url": "https://www.youtube.com/embed/usZ3Y5zdlm0"
+        },
+        {
+          "title": "O que é escopo de bloco | JavaScript - Roger Melo",
+          "url": "https://www.youtube.com/embed/Z0GCM-vOhkY"
+        },
+        {
+          "title": "O que é escopo léxico | JavaScript - Roger Melo",
+          "url": "https://www.youtube.com/embed/fNWOcDCO4sQ"
+        },
+        {
+          "title": "Closures - Domine this - Entenda JavaScript - CODECASTS",
+          "url": "https://www.youtube.com/embed/LBW0dX2It_M"
+        }
+      ]
+    },
+    {
+      "title": "Events",
+      "links": [
+        {
+          "title": "JavaScript bubbling e capturing - iMasters",
+          "url": "https://imasters.com.br/front-end/javascript-bubbling-e-capturing"
+        },
+        {
+          "title": "Manipulando eventos - BrazilJS - Eloquente Javascript",
+          "url": "https://github.com/braziljs/eloquente-javascript/blob/master/chapters/14-manipulando-eventos.md"
+        },
+        {
+          "title": "Entendendo captura e propagação de eventos - Loop Infinito",
+          "url": "http://loopinfinito.com.br/2013/05/14/entendendo-captura-e-propagacao-de-eventos/"
+        }
+      ]
+    },
+    {
+      "title": "Prototype",
+      "links": [
+        {
+          "title": "Herança e cadeia de protótipos (prototype chain) - Developer Mozila",
+          "url": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain"
+        },
+        {
+          "title": "Dominando o uso de prototype em JavaScript - Tableless",
+          "url": "https://tableless.com.br/dominando-o-uso-de-prototype-em-javascript/"
+        },
+        {
+          "title": "Prototype - JavaScript - Dev Media",
+          "url": "https://www.devmedia.com.br/prototype-javascript/7063"
+        },
+        {
+          "title": "Entendendo Herança e Prototype em JavaScript (Prototype Chain) - SouDev",
+          "url": "https://www.youtube.com/embed/7ZxYJw9ebaM"
+        },
+        {
+          "title": "Vanilla Javascript - #34 Herança Prototípica - Webdesign em Foco",
+          "url": "https://www.youtube.com/embed/6YT-cHf0pC4"
+        }
+      ]
+    },
+    {
+      "title": "Shadow DOM",
+      "links": [
+        {
+          "title": "Shadow DOM v1: Componentes da Web Independentes - Developers Google",
+          "url": "https://developers.google.com/web/fundamentals/web-components/shadowdom?hl=pt-br"
+        },
+        {
+          "title": "Shadow DOM – Voltando ao básico - Lambda3",
+          "url": "https://www.lambda3.com.br/2018/03/shadow-dom-voltando-ao-basico/"
+        },
+        {
+          "title": "Criando componente com Shadow DOM - iMasters",
+          "url": "https://imasters.com.br/front-end/criando-componente-com-shadow-dom"
+        }
+      ]
+    },
+    {
+      "title": "Strict",
+      "links": [
+        {
+          "title": "JavaScript Strict Mode #AluraMais - Alura Cursos Online",
+          "url": "https://www.youtube.com/embed/-iiSEKTotyg"
+        },
+        {
+          "title": "O QUE O “USE STRICT’ FAZ NO JAVASCRIPT E POR QUE ELE EXISTE - igluonline",
+          "url": "https://igluonline.com/o-que-o-use-strict-faz-no-javascript-e-por-que-ele-existe/"
+        },
+        {
+          "title": "JavaScript Strict Mode - Tableless",
+          "url": "https://tableless.com.br/javascript-strict-mode/"
+        },
+        {
+          "title": "Strict mode - Developer Mozilla",
+          "url": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Strict_mode"
+        }
+      ]
+    }
+  ]
+}

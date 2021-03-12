@@ -1,0 +1,43 @@
+{
+  "title": "git",
+  "order": 5,
+  "branches": [
+    {
+      "title": "Cursos de GIT",
+      "links": [
+        {
+          "title": "Git e contribuições para projetos Open Source - Bruno Orlandi",
+          "url": "https://www.udemy.com/course/git-e-github/"
+        },
+        {
+          "title": "Livro Pro Git - GIT",
+          "url": "https://git-scm.com/book/pt-br/v2) (Conteúdo ainda não está totalmente traduzido"
+        },
+        {
+          "title": "Curso de Git para iniciantes - RBtech",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0"
+        },
+        {
+          "title": "Curso GIT e GITHUB - Professor José de Assis",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj"
+        },
+        {
+          "title": "Curso de GIT e GitHub - Vídeos de TI",
+          "url": "https://www.youtube.com/embed/videoseries?list=PLmSWX0ePcw4h4Hf1nmrvIxJJ_2QjojhVC"
+        },
+        {
+          "title": "Como usar Git e Github na prática: Guia para iniciantes | Mayk Brito - Rocketseat",
+          "url": "https://www.youtube.com/embed/2alg7MQ6_sI"
+        },
+        {
+          "title": "CURSO COMPLETO DE GIT (2 HORAS E 30 MINUTOS) - Bonieky Lacerda",
+          "url": "https://www.youtube.com/embed/OuOb1_qADBQ"
+        },
+        {
+          "title": "GitHub | Guia Completo do Iniciante - Felipe Fontoura",
+          "url": "https://www.youtube.com/embed/UbJLOn1PAKw"
+        }
+      ]
+    }
+  ]
+}
