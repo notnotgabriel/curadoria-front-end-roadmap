@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     background: url("/images/theme/bg.jpg"),
     linear-gradient(
       90deg,
@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
       rgba(23, 78, 106, 1) 100%
     );
     background-size: cover;
+    margin: 0;
   }
 
   ul {
