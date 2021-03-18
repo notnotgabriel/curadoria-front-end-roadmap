@@ -13,7 +13,7 @@ const StyledLink = styled.a<{ active?: boolean }>`
   color: #a7b2b4;
   padding: 10px;
   transition: color ease 0.3s;
-  font-size: 1.3em;
+  font-size: 1.5em;
   cursor: pointer;
 
   &:hover {
