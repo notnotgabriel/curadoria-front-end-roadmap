@@ -17,6 +17,7 @@ export const FrameOverlay = styled.div`
 
 export const FrameTitle = styled.p`
   font-size: 0.8em;
+  font-weight: 300;
   margin: 0;
   max-width: 80%;
   padding: 0;
@@ -25,6 +26,7 @@ export const FrameTitle = styled.p`
 export const Frame = styled.div`
   background: #5d5d5d;
   border: 5px solid #5d5d5d;
+  border-radius: 3px;
   height: 315px;
   margin: 0 auto;
   overflow: hidden;
