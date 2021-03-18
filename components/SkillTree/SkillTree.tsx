@@ -19,6 +19,7 @@ const SkillTree = ({ branches, activeBranch, activeLink, onSkillClick }) => {
                 <SkillButton
                   type='button'
                   key={linkIndex}
+                  title={`Toque para ver conteúdo: ${link.title}`}
                   active={
                     activeBranch === branchIndex && activeLink === linkIndex
                   }
