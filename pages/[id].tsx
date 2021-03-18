@@ -17,8 +17,8 @@ const GridContainer = styled.div`
 
 export default function Post({ skillData, skillsList }) {
   const [[activeBranch, activeLink], setActiveSkillIndexTuple] = useState([
-    0,
-    0,
+    null,
+    null,
   ]);
   const activeSkill = skillData?.branches[activeBranch]?.links[activeLink];
 
