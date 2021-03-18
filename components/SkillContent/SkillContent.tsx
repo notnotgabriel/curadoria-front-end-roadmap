@@ -22,7 +22,7 @@ const SkillContent = ({ title, url }) => {
   const isYoutube = url.includes('youtube.com');
 
   return (
-    <SkillContainer>
+    <SkillContainer role='region' aria-live='polite'>
       {isYoutube ? (
         <Player contentSrc={url} />
       ) : (
@@ -30,7 +30,7 @@ const SkillContent = ({ title, url }) => {
           <a href={url} title={title} target='_blank'>
             <StyledImage
               src='/images/theme/reading.jpg'
-              alt='Garota do lofi brasileiro estudando em sua mesa'
+              alt=''
               width={560}
               height={315}
             />
