@@ -12,6 +12,7 @@ const GridContainer = styled.div`
   grid-template-areas: 'skill-tree skill-content';
   grid-template-columns: auto 35%;
   grid-gap: 10px;
+  padding: 10px 5px 50px;
 `;
 
 export default function Post({ skillData, skillsList }) {
