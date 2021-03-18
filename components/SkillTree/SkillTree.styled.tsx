@@ -29,7 +29,7 @@ export const SkillTitle = styled.p<{ align?: string }>`
 export const SkillButton = styled.button<{ active: boolean }>`
   background: #33322d;
   border-radius: 10px;
-  border: 2px solid #33322d;
+  border: 2px solid #cccccc;
   height: 100px;
   margin: 0;
   padding: 0;
