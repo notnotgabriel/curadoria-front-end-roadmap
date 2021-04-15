@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+  @apply bg-gray-100;
   font-family: 'Open Sans', sans-serif;
   height: 100vh;
 }
