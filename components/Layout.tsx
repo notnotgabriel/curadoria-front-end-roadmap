@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import Head from 'next/head';
 
-import Header from './Header/Header';
+import Header from './Header';
 
 interface ILayout {
   children: React.ReactNode;
@@ -28,12 +28,12 @@ const Layout: FC<ILayout> = ({ children, navLinks = [], sectionTitle }) => {
         <title>{`${siteTitle} | ${sectionTitle}`}</title>
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link
-          href='https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap'
           rel='stylesheet'
         />
       </Head>
       <Header navLinks={navLinks} />
-      <main className='bg-gray-100'>{children}</main>
+      <main>{children}</main>
     </>
   );
 };
