@@ -1,9 +1,11 @@
-interface Props {
+import { FC } from 'react';
+
+interface IPlayerProps {
   contentSrc: string;
   title: string;
 }
 
-const Player = ({ contentSrc, title }: Props) => {
+const Player: FC<IPlayerProps> = ({ contentSrc, title }) => {
   return (
     <iframe
       height='315'

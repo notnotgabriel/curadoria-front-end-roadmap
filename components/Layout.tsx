@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import Header from './Header';
 
-interface ILayout {
+interface ILayoutProps {
   children: React.ReactNode;
   navLinks?: Array<{ id: string; title: string }>;
   sectionTitle?: string;
@@ -11,7 +11,11 @@ interface ILayout {
 
 export const siteTitle = 'Curadoria Front-end Roadmap';
 
-const Layout: FC<ILayout> = ({ children, navLinks = [], sectionTitle }) => {
+const Layout: FC<ILayoutProps> = ({
+  children,
+  navLinks = [],
+  sectionTitle,
+}) => {
   return (
     <>
       <Head>
