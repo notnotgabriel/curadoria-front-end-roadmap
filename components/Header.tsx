@@ -12,7 +12,7 @@ const Header = ({ navLinks }) => {
             <li key={id}>
               <Link href={`/${id}`}>
                 <a
-                  className={classnames('p-1', {
+                  className={classnames('p-1 text-gray-700', {
                     'border-b-2 border-red-600': id === query?.id,
                   })}
                 >
