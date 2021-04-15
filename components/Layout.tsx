@@ -28,12 +28,12 @@ const Layout: FC<ILayout> = ({ children, navLinks = [], sectionTitle }) => {
         <title>{`${siteTitle} | ${sectionTitle}`}</title>
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link
-          href='https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'
           rel='stylesheet'
         />
       </Head>
       <Header navLinks={navLinks} />
-      <main>{children}</main>
+      <main className='bg-gray-100'>{children}</main>
     </>
   );
 };
