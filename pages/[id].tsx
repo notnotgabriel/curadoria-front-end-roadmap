@@ -3,39 +3,29 @@ import styled from 'styled-components';
 import { GetStaticPaths, GetStaticProps } from 'next';
 
 import Layout from '../components/Layout';
-import { getAllPostsIds, getPostData, getSortedPostsData } from '../lib/posts';
-import SkillTree from '../components/SkillTree/SkillTree';
-import SkillContent from '../components/SkillContent/SkillContent';
+import Player from '../components/Player';
+import Playlist from '../components/Playlist';
 
-const GridContainer = styled.div`
-  display: grid;
-  grid-template-areas: 'skill-tree skill-content';
-  grid-template-columns: auto 35%;
-  grid-gap: 10px;
-  padding: 10px 5px 50px;
-`;
+import { getAllPostsIds, getPostData, getSortedPostsData } from '../lib/posts';
 
 export default function Post({ skillData, skillsList }) {
   const [[activeBranch, activeLink], setActiveSkillIndexTuple] = useState([
-    null,
-    null,
+    0,
+    0,
   ]);
-  const activeSkill = skillData?.branches[activeBranch]?.links[activeLink];
+  const activeSkill =
+    skillData?.branches[activeBranch]?.links[activeLink] ?? {};
 
   return (
     <Layout navLinks={skillsList} sectionTitle={skillData.title}>
-      <GridContainer>
-        <SkillTree
-          branches={skillData.branches}
-          activeBranch={activeBranch}
-          activeLink={activeLink}
-          onSkillClick={setActiveSkillIndexTuple}
-        />
+      <Player title={activeSkill.title} contentSrc={activeSkill.url} />
 
-        {activeSkill && (
-          <SkillContent title={activeSkill.title} url={activeSkill.url} />
-        )}
-      </GridContainer>
+      <Playlist
+        branches={skillData.branches}
+        activeBranch={activeBranch}
+        activeLink={activeLink}
+        onSkillClick={setActiveSkillIndexTuple}
+      />
     </Layout>
   );
 }
