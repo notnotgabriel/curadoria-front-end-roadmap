@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import { GetStaticPaths, GetStaticProps } from 'next';
 
 import Layout from '../components/Layout';
@@ -18,14 +17,16 @@ export default function Post({ skillData, skillsList }) {
 
   return (
     <Layout navLinks={skillsList} sectionTitle={skillData.title}>
-      <Player title={activeSkill.title} contentSrc={activeSkill.url} />
+      <div className='grid lg:grid-cols-2 lg:py-8 lg:px-20 gap-4'>
+        <Player title={activeSkill.title} contentSrc={activeSkill.url} />
 
-      <Playlist
-        branches={skillData.branches}
-        activeBranch={activeBranch}
-        activeLink={activeLink}
-        onSkillClick={setActiveSkillIndexTuple}
-      />
+        <Playlist
+          branches={skillData.branches}
+          activeBranch={activeBranch}
+          activeLink={activeLink}
+          onSkillClick={setActiveSkillIndexTuple}
+        />
+      </div>
     </Layout>
   );
 }

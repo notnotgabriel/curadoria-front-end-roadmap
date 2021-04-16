@@ -2,11 +2,11 @@ import classnames from 'classnames';
 
 const Playlist = ({ branches, activeBranch, activeLink, onSkillClick }) => {
   return (
-    <div className='p-3'>
+    <div className='p-3 border-gray-200 rounded lg:bg-white lg:py-0 lg:border-2 lg:overflow-y-scroll h-[490px]'>
       {branches.map((branch, branchIndex) => {
         return (
           <div className='mb-5' key={branchIndex}>
-            <h1 className='text-center my-2 font-bold text-lg text-gray-700'>
+            <h1 className='text-center my-2 font-bold text-lg text-gray-700 lg:my-4'>
               {branch.title}
             </h1>
             <div className='bg-white rounded border'>
