@@ -6,10 +6,10 @@ const Header = ({ navLinks }) => {
   const { query } = useRouter();
   return (
     <nav className='h-15 p-4 bg-white'>
-      <ul className='flex flex-row justify-between uppercase'>
+      <ul className='flex flex-row justify-between uppercase md:justify-end'>
         {navLinks.map(({ id, title }) => {
           return (
-            <li key={id}>
+            <li key={id} className='md:mr-5 md:last:mr-0'>
               <Link href={`/${id}`}>
                 <a
                   className={classnames('p-1 text-gray-700', {
