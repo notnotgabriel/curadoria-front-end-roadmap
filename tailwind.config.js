@@ -1,5 +1,6 @@
 module.exports = {
-  purge: [],
+  mode: 'jit',
+  purge: ['./public/**/*.html', './pages/**/*.tsx', './components/**/*.tsx'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
@@ -7,6 +8,7 @@ module.exports = {
   variants: {
     extend: {
       borderWidth: ['last'],
+      margin: ['last'],
     },
   },
   plugins: [],
