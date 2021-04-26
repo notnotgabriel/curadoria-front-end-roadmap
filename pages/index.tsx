@@ -10,6 +10,11 @@ export default function Home({ skillsList }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+
+      <div className='p-5'>
+        <h1>Curadoria de conteúdos Front-end</h1>
+        <p></p>
+      </div>
     </Layout>
   );
 }
