@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { GetStaticPaths, GetStaticProps } from 'next';
 
 import Layout from '../components/Layout';
@@ -9,11 +9,19 @@ import { getAllPostsIds, getPostData, getSortedPostsData } from '../lib/posts';
 
 export default function Post({ skillData, skillsList }) {
   const [[activeBranch, activeLink], setActiveSkillIndexTuple] = useState([
-    0,
-    0,
+    0, 0,
   ]);
+
   const activeSkill =
     skillData?.branches[activeBranch]?.links[activeLink] ?? {};
+
+  useEffect(() => {
+    if (skillData.id) {
+      setActiveSkillIndexTuple([0, 0]);
+    }
+
+    return () => setActiveSkillIndexTuple([0, 0]);
+  }, [skillData.id]);
 
   return (
     <Layout navLinks={skillsList} sectionTitle={skillData.title}>

@@ -1,4 +1,5 @@
 import { FC, useState, useRef, useLayoutEffect } from 'react';
+import Image from 'next/image';
 
 interface IPlayerProps {
   contentSrc: string;
@@ -7,13 +8,15 @@ interface IPlayerProps {
 
 const Player: FC<IPlayerProps> = ({ contentSrc, title }) => {
   const iframeRef = useRef(null);
-  const [iframeHeight, setIframeHeight] = useState(720);
+  const [[iframeWidth, iframeHeight], setIframeHeight] = useState([872, 720]);
+
+  const isVideoContent = contentSrc.includes('youtube');
 
   useLayoutEffect(() => {
     function handleResize() {
       const iframeWidth = iframeRef?.current?.getBoundingClientRect().width;
       const newIframeheight = 0.56 * iframeWidth;
-      setIframeHeight(newIframeheight);
+      setIframeHeight([iframeWidth, newIframeheight]);
     }
 
     window.addEventListener('resize', handleResize);
@@ -23,17 +26,40 @@ const Player: FC<IPlayerProps> = ({ contentSrc, title }) => {
 
   return (
     <div>
-      <iframe
-        ref={iframeRef}
-        height={iframeHeight}
-        src={contentSrc}
-        allowFullScreen
-        title={title}
-        frameBorder='0'
-        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-        className='w-full'
-      ></iframe>
-      <p className='font-semibold p-4'>{title}</p>
+      {isVideoContent ? (
+        <iframe
+          ref={iframeRef}
+          height={iframeHeight}
+          src={contentSrc}
+          allowFullScreen
+          title={title}
+          frameBorder='0'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+          className='w-full'
+        ></iframe>
+      ) : (
+        <a
+          ref={iframeRef}
+          href={contentSrc}
+          target='_blank'
+          className='block relative'
+        >
+          <Image
+            src='/images/reading.jpg'
+            layout='responsive'
+            width={872}
+            height={490}
+            className='filter brightness-75'
+          />
+
+          <div className='bg-white absolute rounded-sm pt-2 pb-0 w-3/4 left-1/2 -translate-x-1/2 -top-4 text-center shadow'>
+            <p className='my-2'>Clique para acessar este conteúdo em texto</p>
+            <div className='w-full bg-red-500 h-1' />
+          </div>
+        </a>
+      )}
+
+      <p className='font-semibold py-4'>{title}</p>
     </div>
   );
 };
