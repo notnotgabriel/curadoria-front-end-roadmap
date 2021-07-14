@@ -1,19 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import { GetStaticPaths, GetStaticProps } from 'next';
+import React, { useState, useEffect } from "react";
+import { GetStaticPaths, GetStaticProps } from "next";
 
-import Layout from '../components/Layout';
-import Player from '../components/Player';
-import Playlist from '../components/Playlist';
+import Layout from "../components/Layout";
+import Player from "../components/Player";
+import Playlist from "../components/Playlist";
 
-import { getAllPostsIds, getPostData, getSortedPostsData } from '../lib/posts';
+import { getAllPostsIds, getPostData, getSortedPostsData } from "../lib/posts";
 
 export default function Post({ skillData, skillsList }) {
   const [[activeBranch, activeLink], setActiveSkillIndexTuple] = useState([
     0, 0,
   ]);
 
-  const activeSkill =
-    skillData?.branches[activeBranch]?.links[activeLink] ?? {};
+  const activeSkill = skillData?.branches[activeBranch]?.links[activeLink];
 
   useEffect(() => {
     if (skillData.id) {
@@ -25,15 +24,19 @@ export default function Post({ skillData, skillsList }) {
 
   return (
     <Layout navLinks={skillsList} sectionTitle={skillData.title}>
-      <div className='grid lg:grid-cols-2 lg:py-8 lg:px-20 gap-4'>
-        <Player title={activeSkill.title} contentSrc={activeSkill.url} />
+      <div className="grid lg:grid-cols-2 lg:py-8 lg:px-20 gap-4">
+        {activeSkill && (
+          <>
+            <Player title={activeSkill.title} contentSrc={activeSkill.url} />
 
-        <Playlist
-          branches={skillData.branches}
-          activeBranch={activeBranch}
-          activeLink={activeLink}
-          onSkillClick={setActiveSkillIndexTuple}
-        />
+            <Playlist
+              branches={skillData.branches}
+              activeBranch={activeBranch}
+              activeLink={activeLink}
+              onSkillClick={setActiveSkillIndexTuple}
+            />
+          </>
+        )}
       </div>
     </Layout>
   );
